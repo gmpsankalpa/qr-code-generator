@@ -18,7 +18,7 @@ A simple web application for generating QR codes from text input.
 
 ## Demo
 
-You can see a live demo of the QR Code Generator [here](#).
+You can see a live demo of the QR Code Generator [here](https://gmpsankalpa.github.io/qr-code-generator/).
 
 ## Installation
 
