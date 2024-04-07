@@ -22,6 +22,15 @@
         <button onclick="downloadQR('png')">Download PNG</button>
     </div>
 
+    <!-- <footer>
+        <div class="footer">
+          Copyright &copy; <a id="copyright-year"></a> • <a href="https://gmpsankalpa.xyz/" target="_blank">GMP Sankalpa</a>. All rights reserved. 
+        </div>
+    </footer> -->
+
+    <script>
+        document.querySelector('#copyright-year').innerText = new Date().getFullYear();
+    </script>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
     <script src="https://rawgit.com/eKoopmans/html2pdf/master/dist/html2pdf.bundle.js"></script>

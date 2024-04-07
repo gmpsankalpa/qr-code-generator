@@ -56,3 +56,25 @@ button:hover {
 h1 {
     color: #333;
 }
+
+.footer { 
+    background-color: #242424; 
+    color: white; 
+    padding: 10px;
+    font-size: 14px;
+    text-align:center;
+    white-space: nowrap;
+    position:relative;
+  }
+  
+  /* Footer link style */
+  .footer a { 
+   color: white;
+   text-decoration: none;
+  }
+  
+  /*/ Footer link hover style / */
+  .footer a:hover { 
+   color: #f0f0f0;
+   text-decoration: underline;
+  }
